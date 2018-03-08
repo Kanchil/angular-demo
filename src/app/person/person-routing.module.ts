@@ -3,7 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {PersonListComponent} from './person-list/person-list.component';
 
 const routes: Routes = [
-  {path: 'persons', component: PersonListComponent}
+  {path: '', component: PersonListComponent}
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],

@@ -9,7 +9,7 @@ const routes: Routes = [
   },
   {
     path: 'persons',
-    loadChildren: 'app/person#PersonModule',
+    loadChildren: 'app/person/person.module#PersonModule',
     pathMatch: 'full'
   },
 ];
